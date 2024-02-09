@@ -8,9 +8,9 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("c:/Users/hearl/Downloads/terraform-project-411316-af8270881346.json")
+  credentials = file("KEY")
 
-  project = "terraform-project-411316"
+  project = "terraform-project-gcp"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
